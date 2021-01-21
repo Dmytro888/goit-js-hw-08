@@ -21,7 +21,7 @@ galleryArray.forEach(({ original, preview, description }) =>
     </li>`,
   ),
 );
-const openModal = () => {
+const openModal = event => {
   event.preventDefault();
   if (event.target.nodeName !== 'IMG') {
     return;
