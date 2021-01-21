@@ -117,6 +117,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 0;
   width: 48px;
   height: 48px;
   padding: 0;
@@ -128,7 +129,7 @@ body {
   cursor: pointer;
   transition: background-color var(--animation-duration) var(--timing-function);
   outline: none;
-  background-image: url('../images/icon-close.svg');
+  /* background-image: url('../images/icon-close.svg'); */
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
